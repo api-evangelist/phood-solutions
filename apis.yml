@@ -1,7 +1,25 @@
 aid: phood-solutions
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/phood-solutions.png
 name: Phood Solutions
-description: Phood Solutions is a company surfaced as a portfolio company of techstars and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Phood Solutions is a New York City-based food-waste technology company founded in
+  2015 by Luc Dang and Nick Kruczek. Its computer-vision platform, PhoodX, pairs a countertop scale
+  and camera system with a waste-analytics dashboard to automatically identify, weigh, and categorize
+  discarded food in commercial kitchens, grocery prepared-foods operations, and food-service venues.
+  The platform reports product-level margins, recommends demand-based production volumes, and helps
+  operators cut food waste by up to 50 percent, reduce kitchen labor, and lower food-inventory costs.
+  Phood also offers Phood Lab, custom digital solutions built by its food technologists. The company
+  is backed by Techstars. Phood publishes no public API or developer program at this time.
 url: https://raw.githubusercontent.com/api-evangelist/phood-solutions/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +29,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Food Waste
+- Computer Vision
+- Food Service
+- Sustainability
+- Analytics
+- Restaurant Technology
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +45,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/phood-solutions-domain-security.yml
 - type: Website
   url: https://phoodsolutions.com/
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
