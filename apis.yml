@@ -32,6 +32,9 @@ description: Phood Solutions is a New York City-based food-waste technology comp
   Phood also offers Phood Lab, custom digital solutions built by its food technologists. The company
   is backed by Techstars. Phood publishes no public API or developer program at this time.
 url: https://raw.githubusercontent.com/api-evangelist/phood-solutions/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "Phood publishes no public API or developer program at this time."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
