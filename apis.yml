@@ -47,7 +47,7 @@ modified: '2026-07-20'
 tags:
 - Company
 - Food Waste
-- Computer-Vision
+- Computer Vision
 - Food Service
 - Sustainability
 - Analytics
@@ -60,6 +60,7 @@ tags_raw:
 - Sustainability
 - Analytics
 - Restaurant Technology
+- Computer-Vision
 apis: []
 maintainers:
 - FN: Kin Lane
